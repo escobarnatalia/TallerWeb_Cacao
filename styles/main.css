@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero {
+  background-image: url("../Recursos/Patters.png");
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px 0;
+  max-width: 1200px;
+  max-height: 560px;
+  color: #ffffff;
+}
+
+.hero__name {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 177.7%;
+  letter-spacing: 0.265em;
+}
+
+.hero__subname {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 177.7%;
+  letter-spacing: 0.46em;
+}
+
+.navigation {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 177.7%;
+  letter-spacing: 0.265em;
+  text-align: right;
+}
+
+.hero__text {
+  padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 177.7%;
+  text-transform: uppercase;
+  letter-spacing: 0.265em;
+}
+
+.about {
+  color: #ffffff;
+  background-image: url(../Recursos/Image1.png);
+}
+
+.about__container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px 0;
+  max-width: 1200px;
+  max-height: 560px;
+  font-family: Source Sans Pro;
+}
+
+.about__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 177.7%;
+  letter-spacing: 0.265em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 177.7%;
+  text-align: center;
+  letter-spacing: 0.25em;
+}
+/*# sourceMappingURL=main.css.map */
