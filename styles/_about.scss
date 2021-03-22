@@ -1,0 +1,33 @@
+.about {
+    color: #ffffff;
+    background-image: url(../Recursos/Image1.png);
+}
+
+.about__container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0;
+    max-width: 1200px;
+    max-height: 560px;
+    font-family: Source Sans Pro;
+}
+
+.about__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 177.7%;
+    letter-spacing: 0.265em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 177.7%;
+    text-align: center;
+    letter-spacing: 0.25em;
+}
