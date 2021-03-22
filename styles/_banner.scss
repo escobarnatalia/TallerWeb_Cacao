@@ -1,59 +1,60 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.hero{
-    background-image: url("../Recursos/Patters.png");
-}
-
 .container {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
     padding: 50px 0;
     max-width: 1200px;
-    max-height: 560px;
+    max-height: 600px;
     color: #ffffff;
     
 }
 
-.hero__name {
+.hero{
+    background-image: url("../Recursos/Patters.png");
+    background-size: cover;
+    background-position: center;   
+
+    
+
+    &__name{
     font-family: Sora;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 177.7%;
     letter-spacing: 0.265em;
-}
+    }
 
-.hero__subname {
-    font-family: Sora;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 177.7%;
-    letter-spacing: 0.46em;
-}
+    &__subname{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 177.7%;
+        letter-spacing: 0.46em;
+    }
 
-.navigation {
-    font-family: Sora;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 177.7%;
-    letter-spacing: 0.265em;
-    text-align: right;
-}
+    &__navigation{
+        font-family: Sora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 177.7%;
+        letter-spacing: 0.265em;
+        text-align: right;
+    }
 
-.hero__text {
-    padding: 0px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 177.7%;
-    text-transform: uppercase;
-    letter-spacing: 0.265em;
+    &__text{
+        padding: 0px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 200%;
+        text-transform: uppercase;
+        letter-spacing: 0.265em;
+        color: rgb(255, 255, 255);
+        margin-bottom: 100em; 
+    }
+    
 }

@@ -1,24 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.hero {
-  background-image: url("../Recursos/Patters.png");
-}
-
 .container {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
   padding: 50px 0;
   max-width: 1200px;
-  max-height: 560px;
+  max-height: 600px;
   color: #ffffff;
+}
+
+.hero {
+  background-image: url("../Recursos/Patters.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .hero__name {
@@ -39,7 +34,7 @@
   letter-spacing: 0.46em;
 }
 
-.navigation {
+.hero__navigation {
   font-family: Sora;
   font-style: normal;
   font-weight: normal;
@@ -55,27 +50,31 @@
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
-  line-height: 177.7%;
+  line-height: 200%;
   text-transform: uppercase;
   letter-spacing: 0.265em;
+  color: white;
+  margin-bottom: 100em;
 }
 
-.about {
-  color: #ffffff;
-  background-image: url(../Recursos/Image1.png);
-}
-
-.about__container {
+.conrainer {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
   padding: 50px 0;
   max-width: 1200px;
   max-height: 560px;
+}
+
+.about {
+  color: #ffffff;
+  background-image: url(../Recursos/About.png);
   font-family: Source Sans Pro;
+  background-size: cover;
 }
 
 .about__title {
+  margin-top: 400px;
   font-style: normal;
   font-weight: bold;
   font-size: 80px;
@@ -92,5 +91,12 @@
   line-height: 177.7%;
   text-align: center;
   letter-spacing: 0.25em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=main.css.map */
