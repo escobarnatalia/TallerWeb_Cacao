@@ -1,20 +1,21 @@
-.conrainer{
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 50px 0;
-    max-width: 1200px;
-    max-height: 560px;
-    
-}
 .about {
-    color: #ffffff;
+    
     background-image: url(../Recursos/About.png);
     font-family: Source Sans Pro;
     background-size: cover;
 
+    &__container{
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 50px 0;
+        max-width: 1200px;
+        max-height: 2000px;
+        color: #ffffff;
+    }
+
     &__title{
-    margin-top: 400px;
+    margin-top: 350px;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;

@@ -1,0 +1,21 @@
+.products {
+    background-image: url(../Recursos/Products.png);
+    background-size: cover;
+    background-position: center; 
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    display: flex;
+    height: 1080px;
+
+
+    &__name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+    }
+}
+
