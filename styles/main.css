@@ -115,14 +115,72 @@
   text-transform: uppercase;
 }
 
+.promotion {
+  background-image: url(../Recursos/Promotion.png);
+  font-family: Source Sans Pro;
+  background-size: cover;
+}
+
+.promotion__container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px 0;
+  max-width: 1200px;
+  max-height: 2000px;
+  color: #ffffff;
+}
+
+.promotion__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 177.7%;
+  text-align: center;
+  letter-spacing: 0.265em;
+  text-transform: uppercase;
+}
+
+.promotion__text {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 177.7%;
+  text-align: center;
+  letter-spacing: 0.25em;
+}
+
+.promotion__btn {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 29px;
+  padding-right: 28px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  background-color: #ffffff00;
+  border: 1.5px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.promotion__btn:hover {
+  color: #ffffff00;
+  background-color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.hidden {
-  display: none;
 }
 /*# sourceMappingURL=main.css.map */
