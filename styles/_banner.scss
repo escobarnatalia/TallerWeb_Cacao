@@ -20,6 +20,8 @@
     font-size: 40px;
     line-height: 177.7%;
     letter-spacing: 0.265em;
+    margin-top: none;
+    max-width: 250px;
     }
 
     &__subname{
@@ -29,6 +31,7 @@
         font-size: 20px;
         line-height: 177.7%;
         letter-spacing: 0.46em;
+        margin-bottom: 100px;
     }
 
     &__navigation{
@@ -39,6 +42,14 @@
         line-height: 177.7%;
         letter-spacing: 0.265em;
         text-align: right;
+    }
+
+
+    &__navText{
+        display: inline;
+        padding: 10px;
+        list-style: none;        
+        margin-top: 100px;
     }
 
     &__text{
