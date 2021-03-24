@@ -1,0 +1,23 @@
+.footer {
+    background-color: #000002;
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    display: flex;
+    height: 571px;
+    padding: 50px;
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38.5px;
+        line-height: 50px;
+    }
+
+    &__login {
+        width: 100%;
+        height: 50px;
+        max-width: 298;
+        position: relative;
+
+    }
+}
