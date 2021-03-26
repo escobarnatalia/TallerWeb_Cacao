@@ -7,9 +7,14 @@
 @import 'products';
 @import 'promotion';
 @import 'footer';   
+@import 'form';
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;     
+}
+
+.hidden{
+    display: none;
 }

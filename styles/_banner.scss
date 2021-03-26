@@ -1,9 +1,9 @@
-.hero{
+.hero {
     background-image: url("../Recursos/Patters.png");
     background-size: cover;
-    background-position: center;   
+    background-position: center;
 
-    &__container{
+    &__container {
         width: 100%;
         margin: 0 auto;
         overflow: hidden;
@@ -13,18 +13,18 @@
         color: #ffffff;
     }
 
-    &__name{
-    font-family: Sora;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 177.7%;
-    letter-spacing: 0.265em;
-    margin-top: none;
-    max-width: 250px;
+    &__name {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 177.7%;
+        letter-spacing: 0.265em;
+        margin-top: none;
+        max-width: 250px;
     }
 
-    &__subname{
+    &__subname {
         font-family: Sora;
         font-style: normal;
         font-weight: 300;
@@ -34,7 +34,7 @@
         margin-bottom: 100px;
     }
 
-    &__navigation{
+    &__navigation {
         font-family: Sora;
         font-style: normal;
         font-weight: normal;
@@ -44,17 +44,16 @@
         text-align: right;
     }
 
-
-    &__navText{
+    &__navText {
         display: inline;
         padding: 10px;
-        list-style: none;        
+        list-style: none;
         margin-top: 100px;
     }
 
-    &__text{
+    &__text {
         padding: 0px;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 40px;
@@ -62,7 +61,84 @@
         text-transform: uppercase;
         letter-spacing: 0.265em;
         color: rgb(255, 255, 255);
-        margin-bottom: 100em; 
+        margin-bottom: 100em;
     }
-    
+}
+
+@media screen and (max-width: 500px) {
+    .hero {
+        background-image: url("../Recursos/Patters.png");
+        background-size: cover;
+        background-position: center;
+        //background-color: aqua;
+
+        &__container {
+            width: 100%;
+            margin: 0 30px;
+            overflow: hidden;
+            padding: 50px 0;
+            max-width: 300px;
+            max-height: 400px;
+            color: #ffffff;
+        }
+
+        &__name {
+            font-family: Sora;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 177.7%;
+            letter-spacing: 0.265em;
+            margin-top: none;
+            max-width: 250px;
+        }
+
+        &__subname {
+            font-family: Sora;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 177.7%;
+            letter-spacing: 0.46em;
+            margin-bottom: 100px;
+        }
+
+        &__navigation {
+            display: none;
+            font-family: Sora;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 177.7%;
+            letter-spacing: 0.265em;
+            text-align: right;
+        }
+
+        &__navText {
+            display: inline;
+            padding: 10px;
+            list-style: none;
+            margin-top: 100px;
+            font-family: Sora;
+        }
+
+        &__text {
+            padding: 0px;
+            font-family: "Source Sans Pro", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 200%;
+            text-transform: uppercase;
+            letter-spacing: 0.265em;
+            color: rgb(255, 255, 255);
+            margin-bottom: 100em;
+        }
+
+        &__burguer {
+            display: block;
+            position: absolute;
+            right: 25px;
+        }
+    }
 }
